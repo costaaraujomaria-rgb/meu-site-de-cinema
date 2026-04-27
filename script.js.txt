@@ -1,0 +1,8 @@
+function enviarMensagem(event) {
+  event.preventDefault();
+  alert("🔥 Mensagem enviada! Obrigado pelo contato.");
+}
+
+function verDetalhes(filme) {
+  alert("Você clicou em " + filme + " 🎬");
+}
